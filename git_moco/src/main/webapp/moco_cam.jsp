@@ -55,9 +55,9 @@
                             <div class="s-header__logo">
                                 <a href="main.jsp" class="s-header__logo-link">
                                    <img class="s-header__logo-img s-header__logo-img-default" 
-                                   src="resources/assets/img/moco/mocologo.png" alt="logo" style="width:50%;">
+                                   src="resources/assets/img/moco/mocologo-white.png" alt="logo" style="width:50%;">
                                    <img class="s-header__logo-img s-header__logo-img-shrink" 
-                                   src="resources/assets/img/moco/mocologo_sky.png" alt="Logo" style="width:13%; padding-top:15px;">
+                                   src="resources/assets/img/moco/mocologo-sky.png" alt="Logo" style="width:15%; padding-top:15px;">
                                 </a>
                             </div>
                             <!-- End Logo -->
@@ -187,7 +187,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-xs-12">
                         <a href="index.html">
-                            <img class="g-width-100--xs g-height-auto--xs" src="resources/assets/img/moco/mocologo_sky.png" alt="Logo">
+                            <img class="g-width-100--xs g-height-auto--xs" src="resources/assets/img/moco/mocologo-sky.png" alt="Logo">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top: 20px;">

@@ -77,9 +77,9 @@
                             <div class="s-header__logo">
                                 <a href="main.jsp" class="s-header__logo-link">
                                    <img class="s-header__logo-img s-header__logo-img-default" 
-                                   src="resources/assets/img/moco/mocologo.png" alt="logo" style="width:50%;">
+                                   src="resources/assets/img/moco/mocologo-white.png" alt="logo" style="width:50%;">
                                    <img class="s-header__logo-img s-header__logo-img-shrink" 
-                                   src="resources/assets/img/moco/mocologo_sky.png" alt="Logo" style="width:13%; padding-top:15px;">
+                                   src="resources/assets/img/moco/mocologo-sky.png" alt="Logo" style="width:15%; padding-top:15px;">
                                 </a>
                             </div>
                             <!-- End Logo -->
@@ -126,12 +126,7 @@
                             <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
                         </a>
                     </li>
-                    <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="#">
-                            <i class="g-padding-r-5--xs ti-twitter"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
-                        </a>
-                    </li>
+                    
                     <li class="s-header__action-item">
                         <a class="s-header__action-link" href="#">
                             <i class="g-padding-r-5--xs ti-instagram"></i>
@@ -163,11 +158,6 @@
                 </div>
             </div>
             <!-- End Swiper Wrapper -->
-
-            <!-- Arrows -->
-            <!-- <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
-            <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a> -->
-            <!-- End Arrows -->
             
             <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
                 <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
@@ -221,17 +211,16 @@
                     <div class="col-lg-4 col-md-4 col-xs-12">
                         <a href="index.html">
                             <img class="g-width---xs g-height---xs" 
-                            src="resources/assets/img/moco/mocologo_sky.png" alt="Logo" style=" width:40%;">
+                            src="resources/assets/img/moco/mocologo-sky.png" alt="Logo" style=" width:40%;">
                         </a>
                     </div>
                     
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top: 20px;">
                         <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">주소. 광주광역시 남구 송암로60 <br> TEL. 062-0413-0413</p>
                     </div>
- 
+                 
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top: 20px;">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Distributed by: <a href="https://themewagon.com/">themewagon.com</a></p>  
-
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">Designed by MOCO</a></p>  
                     </div>
                 </div>
             </div>
@@ -243,8 +232,6 @@
         <!-- <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a> -->
         <a href="faq.jsp"><img src="resources/assets/img/moco/app_download.png" 
         style="width:20%; position:fixed; bottom:0px; right:0px; z-index: 1;"></a>
-        
-        
 
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
         <!-- Vendor -->

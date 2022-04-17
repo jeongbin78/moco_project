@@ -45,7 +45,7 @@
                             <div class="s-header__logo">
                                 <a href="main.jsp" class="s-header__logo-link">
                                     <img class="s-header__logo-img s-header__logo-img-default" 
-                                    src="resources/assets/img/moco/mocologo_sky.png" alt="logo" style="width:50%;">
+                                    src="resources/assets/img/moco/mocologo-sky.png" alt="logo" style="width:50%;">
                                 </a>
                             </div>
                             <!-- End Logo -->
@@ -125,7 +125,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-xs-12">
                         <a href="index.html">
-                            <img class="g-width---xs g-height---xs" src="resources/assets/img/moco/mocologo_sky.png" alt="Logo" style=" width:35%;">
+                            <img class="g-width---xs g-height---xs" src="resources/assets/img/moco/mocologo-sky.png" alt="Logo" style=" width:35%;">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
