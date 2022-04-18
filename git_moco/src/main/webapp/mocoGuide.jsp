@@ -168,8 +168,8 @@
             <div class="row g-margin-b-50--xs">
                 <div>
                 	<span class="num_span">1</span>
-                    <span style="padding-left:10px; font-size: 18px;">카메라 설치하기</span><br>
-                    <span class="info_span">내 모습이 완전히 보이도록 천장 쪽에 카메라를 설치하면 좋습니다.</span>
+                    <span style="padding-left:10px; font-size: 18px;">MOCO(캠) 설치하기</span><br>
+                    <span class="info_span">내 모습이 완전히 보이도록 천장 쪽에 캠을 설치하면 좋습니다.</span>
                     <img class="info_img"  alt="temp" src="resources/assets/img/moco/tempimg.png" >
                 </div>
             </div>
@@ -192,6 +192,17 @@
                 	<span class="num_span">3</span>
                     <span style="padding-left:10px; font-size: 18px;">기기 연결하기</span><br>
                     <span class="info_span">핸드폰의 블루투스가 켜져 있는 상태에서 <br> 기기 연결을 눌러 컨트롤을 원하는 기기와 블루투스로 연결합니다.</span>
+                    <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png">
+                </div>
+            </div>
+        </div>
+        
+        <div id="js__scroll-to-section3" class="g-container--md g-padding-y-50--xs g-padding-y-125--sm info_div">
+            <div class="row g-margin-b-50--xs">
+                <div>
+                	<span class="num_span">4</span>
+                    <span style="padding-left:10px; font-size: 18px;">MOCO 사용하기</span><br>
+                    <span class="info_span">기기도 등록해 놓고 MOCO도 설치했다면 <br> 모션을 통해 기기의 전원 제어가 잘 되는지 테스트를 해봅닏</span>
                     <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png">
                 </div>
             </div>
