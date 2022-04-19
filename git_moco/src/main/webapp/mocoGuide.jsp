@@ -65,6 +65,11 @@
         	.info_span{
         		font-family: 'AvenirLTPro-Heavy';
         		color:gray;
+        		font-size:17px;
+        	}
+        	.title_span{
+        		padding-left:10px; 
+        		font-size: 20px;
         	}
         	
         </style>
@@ -164,13 +169,13 @@
         <!--========== PAGE CONTENT ==========-->
         <!-- FA Questions Text -->
         <div id="js__scroll-to-section" class="g-container--md g-padding-y-80--xs g-padding-y-125--sm info_div">
-            <h2 class="g-font-size-32--xs g-font-size-23--md g-text-left--xs g-margin-b-80--xs" style="color:#0BB8FF; margin-top:40px; text-align:center;">MOCO 이용 방법입니다.</h2>
+            <h2 class="g-font-size-32--xs g-font-size-23--md g-text-left--xs g-margin-b-80--xs" style="margin-top:40px; text-align:center;">MOCO 이용 방법입니다.</h2>
             <div class="row g-margin-b-50--xs">
                 <div>
                 	<span class="num_span">1</span>
-                    <span style="padding-left:10px; font-size: 18px;">MOCO(캠) 설치하기</span><br>
-                    <span class="info_span">내 모습이 완전히 보이도록 천장 쪽에 캠을 설치하면 좋습니다.</span>
-                    <img class="info_img"  alt="temp" src="resources/assets/img/moco/tempimg.png" >
+                    <span class="title_span">MOCO(캠) 설치하기</span><br>
+                    <span class="info_span">내 모습이 완전히 보이도록 천장 쪽에 MOCO를 설치하면 좋습니다.</span>
+                    <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
                 </div>
             </div>
         </div>
@@ -179,9 +184,9 @@
             <div class="row g-margin-b-50--xs">
                 <div>
                 	<span class="num_span">2</span>
-                    <span style="padding-left:10px; font-size: 18px;">회원 가입하기</span><br>
-                    <span class="info_span">앱을 통해 회원가입을 하고 제품 번호까지 등록합니다.</span>
-                    <img class="info_img"  alt="temp" src="resources/assets/img/moco/tempimg.png">
+                    <span class="title_span">회원 가입하기</span><br>
+                    <span class="info_span">앱을 통해 회원가입을 하고 MOCO의 제품 번호까지 등록합니다.</span>
+                    <img class="info_img"  alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
                 </div>
             </div>
         </div>
@@ -190,20 +195,20 @@
             <div class="row g-margin-b-50--xs">
                 <div>
                 	<span class="num_span">3</span>
-                    <span style="padding-left:10px; font-size: 18px;">기기 연결하기</span><br>
-                    <span class="info_span">핸드폰의 블루투스가 켜져 있는 상태에서 <br> 기기 연결을 눌러 컨트롤을 원하는 기기와 블루투스로 연결합니다.</span>
-                    <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png">
+                    <span class="title_span">기기 추가하기</span><br>
+                    <span class="info_span">앱에서 기기 추가를 눌러 제어하길 원하는 기기의<br>시리얼 넘버를 입력해 기기를 등록합니다.</span>
+                    <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
                 </div>
             </div>
         </div>
         
-        <div id="js__scroll-to-section3" class="g-container--md g-padding-y-50--xs g-padding-y-125--sm info_div">
+        <div id="js__scroll-to-section4" class="g-container--md g-padding-y-50--xs g-padding-y-125--sm info_div" >
             <div class="row g-margin-b-50--xs">
                 <div>
                 	<span class="num_span">4</span>
-                    <span style="padding-left:10px; font-size: 18px;">MOCO 사용하기</span><br>
-                    <span class="info_span">기기도 등록해 놓고 MOCO도 설치했다면 <br> 모션을 통해 기기의 전원 제어가 잘 되는지 테스트를 해봅닏</span>
-                    <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png">
+                    <span class="title_span">MOCO 사용하기</span><br>
+                    <span class="info_span">기기도 등록해 놓고 MOCO도 설치했다면 <br> 모션을 통해 기기의 전원 제어가 잘 되는지 테스트를 해봅니다.</span>
+                    <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
                 </div>
             </div>
         </div>
@@ -227,7 +232,7 @@
 
                  
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Distributed by: <a href="https://themewagon.com/">themewagon.com</a></p>
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">Designed by MOCO</a></p>
                     </div>
                 </div>
             </div>
@@ -255,6 +260,18 @@
         <script type="text/javascript" src="resources/assets/js/components/scrollbar.min.js"></script>
         <script type="text/javascript" src="resources/assets/js/components/faq.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->
+        
+        <script type="text/javascript">
+        	function zoomIn(event){
+        		event.target.style.width = "35%";
+        		event.target.style.transition = "all 0.5s";
+        	}
+        	function zoomOut(event){
+        		event.target.style.width = "30%";
+        		event.target.style.transition = "all 0.5s";
+        	}
+        
+        </script>
 
     </body>
     <!-- End Body -->

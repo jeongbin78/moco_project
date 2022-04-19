@@ -134,7 +134,7 @@
 
                  
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Distributed by: <a href="https://themewagon.com/">themewagon.com</a></p>
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">Designed by MOCO</a></p>
                     </div>
                 </div>
             </div>

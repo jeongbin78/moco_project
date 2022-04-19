@@ -144,15 +144,12 @@
         <div class="s-swiper js__swiper-one-item">
             <!-- Swiper Wrapper -->
             <div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('resources/assets/img/1920x1080/01.jpg');">
+                <div class="img-slide g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('resources/assets/img/1920x1080/01.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
                             <div class="g-margin-b-30--xs">
                                 <p id="p_main" class="g-font-size-35--xs g-font-size-45--sm g-font-size-70--md g-color--white">일상의 새로움,<br>MOCO</p>
                             </div>
-                            <!-- <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
-                                <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
-                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -262,7 +259,7 @@
         <script type="text/javascript" src="resources/assets/js/components/google-map.min.js"></script>
         <script type="text/javascript" src="resources/assets/js/components/wow.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->
-
+		
     </body>
     <!-- End Body -->
 </html>

@@ -242,7 +242,7 @@
 
                  
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
-                        <a href="#"><p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">제휴 문의</p></a>
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">Designed by MOCO</a></p>
                     </div>
                 </div>
             </div>
