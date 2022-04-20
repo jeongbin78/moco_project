@@ -107,10 +107,8 @@
         <!-- Feedback Form -->
         <div class="g-position--relative g-bg-color--primary" style="background-color: #f5f5dc;">
             <div class="g-container--md g-padding-y-125--xs" style="text-align: center;">
-                
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfz3xLNOpGOQRuSrJFdg_Sq4pBNPfAhXm-M_EHjmhyhwrUPkA/viewform?embedded=true" 
                 width="640" height="1139" frameborder="0" marginheight="0" marginwidth="0">로드 중…</iframe>
-                
             </div>
             <img class="s-mockup-v2" src="resources/assets/img/mockups/pencil-01.png" alt="Mockup Image">
         </div>
@@ -125,16 +123,16 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-xs-12">
                         <a href="index.html">
-                            <img class="g-width---xs g-height---xs" src="resources/assets/img/moco/mocologo-sky.png" alt="Logo" style=" width:35%;">
+                            <img class="g-width---xs g-height---xs" src="resources/assets/img/moco/mocologo-sky.png" 
+                            alt="Logo" style=" width:35%; padding-top: 10px;">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
                         <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">주소. 광주광역시 남구 송암로60 <br> TEL. 062-0413-0413</p>
                     </div>
-
                  
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">Designed by MOCO</a></p>
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Designed by MOCO</p>
                     </div>
                 </div>
             </div>
@@ -144,7 +142,6 @@
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
-        
 
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
         <!-- Vendor -->
