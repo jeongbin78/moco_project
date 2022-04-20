@@ -33,19 +33,23 @@
         <link rel="shortcut icon" href="resources/assets/img/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="resources/assets/img/apple-touch-icon.png">
         
+        <!-- google Font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+        
         <style type="text/css">
-        	#p_main{
-        		font-family: 'AvenirLTPro-Heavy';
-        		font-weight: bold;
+        	#p_main, #span_main{
+        		font-family: 'Noto Sans KR', sans-serif;
+        		/* font-weight: bold; */
         	}
-        	
         	span{
-        		font-family: 'AvenirLTPro-Heavy';
+        		font-family: 'Noto Sans KR', sans-serif;
         		font-weight: bold;
         	}
-        	p{
-        		font-family: 'AvenirLTPro-Heavy';
-        	}
+        	/* p{
+        		font-family: 'Noto Sans KR', sans-serif;
+        	} */
         	#home_img{
         		width:75%; 
         		text-align: center; 
@@ -56,7 +60,7 @@
         		font-weight: bold; 
         		color:#aaa; 
         		font-size: 14pt; 
-        		margin-left:100px;
+        		margin-left:110px;
         	}
         </style>
         
@@ -126,7 +130,12 @@
                             <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
                         </a>
                     </li>
-                    
+                    <li class="s-header__action-item">
+                        <a class="s-header__action-link" href="#">
+                            <i class="g-padding-r-5--xs ti-twitter"></i>
+                            <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
+                        </a>
+                    </li>
                     <li class="s-header__action-item">
                         <a class="s-header__action-link" href="#">
                             <i class="g-padding-r-5--xs ti-instagram"></i>
@@ -144,12 +153,22 @@
         <div class="s-swiper js__swiper-one-item">
             <!-- Swiper Wrapper -->
             <div>
-                <div class="img-slide g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('resources/assets/img/1920x1080/01.jpg');">
+                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('resources/assets/img/1920x1080/01.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
                             <div class="g-margin-b-30--xs">
-                                <p id="p_main" class="g-font-size-35--xs g-font-size-45--sm g-font-size-70--md g-color--white">일상의 새로움,<br>MOCO</p>
+                                <p id="p_main" class="g-font-size-35--xs g-font-size-45--sm g-font-size-75--md g-color--white">일상의 새로움,</p>
+                                <div style="position:relative;">
+                                	<img alt="logo" src="resources/assets/img/moco/mocologo-white.png" style="width:28%; position:relative;">
+                                
+	                                <div style="position: absolute; position: absolute;">
+	                                	<img alt="full_stop" src="resources/assets/img/moco/main_full_stop.png" style="position: absolute; margin-left: 700px; top: -80px;">
+	                                </div>
+                                </div>
+                                <br>
+                                <span id="span_main" class="g-font-size-35--xs g-font-size-45--sm g-font-size-17--md g-color--white">모션 인식 기반 사물 제어 컨트롤러</span>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -167,33 +186,36 @@
         <!-- Features -->
         <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-text-left--xs g-margin-b-100--xs">
-                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs" style="margin-left:100px;">Welcome to MOCO</p>
-                <span id="c_title" class="g-font-size-35--xs g-font-size-40--md" style="margin-left:100px;">24시간 언제나</span>
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs" style="margin-left:110px;">Welcome to MOCO</p>
+                <span id="c_title" class="g-font-size-35--xs g-font-size-40--md" style="margin-left:110px;">24시간 언제나</span>
                 <img alt="full_stop" src="resources/assets/img/moco/full_stop.png">
                 <br>
-                <p class="p_info">MOCO만 있다면 <br>간단한 동작만으로<br>기기들을 제어할 수 있어요.</p>
+                <p class="p_info">MOCO만 있다면 간단한 동작만으로<br>기기들을 제어할 수 있어요.</p>
                 <br>
-                <img alt="home" src="resources/assets/img/moco/clock.jpg" style="width:75%; margin-left:100px;">
+                <img alt="home" src="resources/assets/img/moco/clock.jpg" style="width:75%; margin-left:150px;">
             </div>
+            
+            <br>
        
 	        <div class="g-text-left--xs g-margin-b-100--xs">
-	           <span class="g-font-size-35--xs g-font-size-40--md" style="margin-left:100px;">원하는 곳에서</span>
+	           <span class="g-font-size-35--xs g-font-size-40--md" style="margin-left:110px;">원하는 곳에서</span>
 	           <img alt="full_stop" src="resources/assets/img/moco/full_stop.png">
 	           <br>
-	           <p class="p_info" >MOCO만 있다면 <br>집, 회사 어디서든<br>편하게 생활할 수 있어요.</p>
+	           <p class="p_info" >MOCO만 있다면 집, 회사 어디서든<br>편하게 생활할 수 있어요.</p>
 	        	<br>
-	        	<img id="home_img" class="info_img" alt="home" src="resources/assets/img/moco/home.jpg">
+	        	<img id="home_img" class="info_img" alt="home" src="resources/assets/img/moco/home.jpg" style="margin-left:150px;">
 	        	<br>
-	        	<img class="info_img" alt="home" src="resources/assets/img/moco/office.jpg" style="width:75%; margin-left:100px;">
+	        	<img class="info_img" alt="home" src="resources/assets/img/moco/office.jpg" style="width:75%; margin-left:150px;">
 	        </div>
+	        <br>
 	        
 	        <div class="g-text-left--xs g-margin-b-100--xs">
-                <span id="c_title" class="g-font-size-35--xs g-font-size-40--md" style="margin-left:100px;">그 자리 그대로</span>
+                <span id="c_title" class="g-font-size-35--xs g-font-size-40--md" style="margin-left:110px;">그 자리 그대로</span>
                 <img alt="full_stop" src="resources/assets/img/moco/full_stop.png">
                 <br>
                 <p class="p_info">바쁜 업무 중에 또는 멀리 이동하지 않아도<br>간단한 동작을 통해<br>불필요한 이동을 줄일 수 있어요.</p>
                 <br>
-                <img alt="home" src="resources/assets/img/moco/people.jpg" style="width:75%; margin-left:80px;">
+                <img alt="home" src="resources/assets/img/moco/people.jpg" style="width:75%; margin-left:155px;">
             </div>
        	</div>
         <!-- End Features -->
@@ -206,9 +228,9 @@
             <div class="container g-padding-y-50--xs">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-xs-12">
-                        <a href="index.html">
+                        <a href="main.jsp">
                             <img class="g-width---xs g-height---xs" 
-                            src="resources/assets/img/moco/mocologo-sky.png" alt="Logo" style=" width:40%;">
+                            src="resources/assets/img/moco/mocologo-sky.png" alt="Logo" style=" width:40%; padding-top: 10px;">
                         </a>
                     </div>
                     
@@ -217,7 +239,8 @@
                     </div>
                  
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top: 20px;">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">Designed by MOCO</a></p>  
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Designed by MOCO</p>  
+
                     </div>
                 </div>
             </div>
@@ -227,9 +250,9 @@
 
         <!-- Back To Top -->
         <!-- <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a> -->
-        <a href="faq.jsp"><img src="resources/assets/img/moco/app_download.png" 
+        <a href="main.jsp"><img src="resources/assets/img/moco/app_download.png" 
         style="width:20%; position:fixed; bottom:0px; right:0px; z-index: 1;"></a>
-
+        
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
         <!-- Vendor -->
         <script type="text/javascript" src="resources/assets/vendor/jquery.min.js"></script>
@@ -259,7 +282,7 @@
         <script type="text/javascript" src="resources/assets/js/components/google-map.min.js"></script>
         <script type="text/javascript" src="resources/assets/js/components/wow.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->
-		
+
     </body>
     <!-- End Body -->
 </html>

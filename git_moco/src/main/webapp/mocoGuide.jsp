@@ -31,6 +31,11 @@
         <link rel="shortcut icon" href="resources/assets/img/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="resources/assets/img/apple-touch-icon.png">
         
+        <!-- google Font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+        
         <style type="text/css">
         	.num_span{
         		width: 20px;
@@ -43,14 +48,14 @@
 			    background-color: #0BB8FF;
 			    color: #fff;
 			    text-align: center;
-			    position: absolute;
+			    position: relative;
 			    left: 0;
 			    line-height: 15pt;
 			    margin-top:5px; 
-			    margin-left:430px;
+			    margin-left:0px;
         	}
         	
-        	h1,h2,p,span{
+        	h1,h2,span{
         		font-family: 'AvenirLTPro-Heavy';
         		font-weight: bold;
         	}
@@ -63,12 +68,13 @@
         		float:right;
         	}
         	.info_span{
-        		font-family: 'AvenirLTPro-Heavy';
+        		font-family: 'Noto Sans KR', sans-serif;
         		color:gray;
         		font-size:17px;
         	}
         	.title_span{
-        		padding-left:10px; 
+        		font-family: 'Noto Sans KR', sans-serif;
+        		padding-left:0px; 
         		font-size: 20px;
         	}
         	
@@ -102,7 +108,7 @@
                         <div class="s-header__navbar-row-col">
                             <!-- Trigger -->
                             <a href="javascript:void(0);" class="s-header__trigger js__trigger" >
-                                <span class="s-header__trigger-icon" style="background-color:black;"></span>
+                                <span class="s-header__trigger-icon"></span>
                                 <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54" >
                                     <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
                                 </svg>
@@ -207,7 +213,7 @@
                 <div>
                 	<span class="num_span">4</span>
                     <span class="title_span">MOCO 사용하기</span><br>
-                    <span class="info_span">기기도 등록해 놓고 MOCO도 설치했다면 <br> 모션을 통해 기기의 전원 제어가 잘 되는지 테스트를 해봅니다.</span>
+                    <span class="info_span">기기도 등록하고 MOCO도 설치했다면 <br> 모션을 통해 기기의 전원 제어가 잘 되는지 테스트를 해봅니다.</span>
                     <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
                 </div>
             </div>
@@ -223,7 +229,8 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-xs-12">
                         <a href="main.jsp">
-                            <img class="g-width---xs g-height---xs" src="resources/assets/img/moco/mocologo-sky.png" alt="Logo" style=" width:35%;">
+                            <img class="g-width---xs g-height---xs" src="resources/assets/img/moco/mocologo-sky.png" 
+                            alt="Logo" style=" width:35%; padding-top: 10px;">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
@@ -232,7 +239,7 @@
 
                  
                     <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">Designed by MOCO</a></p>
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Designed by MOCO</p>
                     </div>
                 </div>
             </div>
