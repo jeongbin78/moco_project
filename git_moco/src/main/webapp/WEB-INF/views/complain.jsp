@@ -8,7 +8,7 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Megakit - HTML5 Theme</title>
+        <title>Moco</title>
         <meta name="keywords" content="HTML5 Theme" />
         <meta name="description" content="Megakit - HTML5 Theme">
         <meta name="author" content="keenthemes.com">
@@ -43,9 +43,9 @@
                         <div class="s-header__navbar-row-col">
                             <!-- Logo -->
                             <div class="s-header__logo">
-                                <a href="index.html" class="s-header__logo-link">
-                                    <img class="s-header__logo-img s-header__logo-img-default" src="resources/assets/img/logo-white.png" alt="Megakit Logo">
-                                    <img class="s-header__logo-img s-header__logo-img-shrink" src="resources/assets/img/logo-dark.png" alt="Megakit Logo">
+                                <a href="main.jsp" class="s-header__logo-link">
+                                    <img class="s-header__logo-img s-header__logo-img-default" 
+                                    src="resources/assets/img/moco/mocologo-sky.png" alt="logo" style="width:50%;">
                                 </a>
                             </div>
                             <!-- End Logo -->
@@ -53,8 +53,8 @@
                         <div class="s-header__navbar-row-col">
                             <!-- Trigger -->
                             <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-                                <span class="s-header__trigger-icon"></span>
-                                <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
+                                <span class="s-header__trigger-icon" style="background-color:black;"></span>
+                                <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54" color="black">
                                     <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
                                 </svg>
                             </a>
@@ -72,36 +72,15 @@
                     <div class="container-fluid">
                         <!-- Menu List -->                                
                         <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html">Corporate</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_app_landing.html">App Landing</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_portfolio.html">Portfolio</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_events.html">Events</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_lawyer.html">Lawyer</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_clinic.html">Clinic</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_coming_soon.html">Coming Soon</a></li>
-                        </ul>
-                        <!-- End Menu List -->
-
-                        <!-- Menu List -->                                
-                        <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">About</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="team.html">Team</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="services.html">Services</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events.html">Events</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.html">FAQ</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="contacts.html">Contacts</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">MOCO사용가이드</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="moco_cam.jsp">MOCO 제품소개</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="complain.jsp">건의사항</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.jsp">FAQ</a></li>
                         </ul>
                         <!-- End Menu List -->
                     </div>
                 </nav>
                 <!-- End Nav -->
-                
-                <!-- Action -->
-                <ul class="list-inline s-header__action s-header__action--lb">
-                    <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
-                    <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
-                </ul>
-                <!-- End Action -->
 
                 <!-- Action -->
                 <ul class="list-inline s-header__action s-header__action--rb">
@@ -117,12 +96,6 @@
                             <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
                         </a>
                     </li>
-                    <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://dribbble.com/keenthemes">
-                            <i class="g-padding-r-5--xs ti-dribbble"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Dribbble</span>
-                        </a>
-                    </li>
                 </ul>
                 <!-- End Action -->
             </div>
@@ -132,54 +105,10 @@
 
         <!--========== PAGE CONTENT ==========-->
         <!-- Feedback Form -->
-        <div class="g-position--relative g-bg-color--primary">
-            <div class="g-container--md g-padding-y-125--xs">
-                <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
-                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Contact Us</p>
-                    <h2 class="g-font-size-32--xs g-font-size-36--sm g-color--white">Get in Touch</h2>
-                </div>
-                <div class="row g-row-col--5 g-margin-b-80--xs">
-                    <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
-                        <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-email"></i>
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Email</h4>
-                            <p class="g-color--white-opacity">support@keenthemes.com</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
-                        <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-map-alt"></i>
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Address</h4>
-                            <p class="g-color--white-opacity">277 Bedford Avenue, Brooklyn</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-4 g-full-width--xs">
-                        <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-headphone-alt"></i>
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Call at</h4>
-                            <p class="g-color--white-opacity">+ (1) 001 389 3720</p>
-                        </div>
-                    </div>
-                </div>
-                <form class="center-block g-width-500--sm g-width-550--md">
-                    <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input" placeholder="* Name">
-                    </div>
-                    <div class="row g-row-col-5 g-margin-b-50--xs">
-                        <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
-                            <input type="email" class="form-control s-form-v3__input" placeholder="* Email">
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control s-form-v3__input" placeholder="* Phone">
-                        </div>
-                    </div>
-                    <div class="g-margin-b-80--xs">
-                        <textarea class="form-control s-form-v3__input" rows="5" placeholder="* Your message"></textarea>
-                    </div>
-                    <div class="g-text-center--xs">
-                        <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs">Submit</button>
-                    </div>
-                </form>
+        <div class="g-position--relative g-bg-color--primary" style="background-color: #f5f5dc;">
+            <div class="g-container--md g-padding-y-125--xs" style="text-align: center;">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfz3xLNOpGOQRuSrJFdg_Sq4pBNPfAhXm-M_EHjmhyhwrUPkA/viewform?embedded=true" 
+                width="640" height="1139" frameborder="0" marginheight="0" marginwidth="0">로드 중…</iframe>
             </div>
             <img class="s-mockup-v2" src="resources/assets/img/mockups/pencil-01.png" alt="Mockup Image">
         </div>
@@ -188,57 +117,22 @@
 
         <!--========== FOOTER ==========-->
         <footer class="g-bg-color--dark">
-            <!-- Links -->
-            <div class="g-hor-divider__dashed--white-opacity-lightest">
-                <div class="container g-padding-y-80--xs">
-                    <div class="row">
-                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Home</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">About</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Work</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Twitter</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Facebook</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Instagram</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">YouTube</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Subscribe to Our Newsletter</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Privacy Policy</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Terms &amp; Conditions</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                            <h3 class="g-font-size-18--xs g-color--white">Megakit</h3>
-                            <p class="g-color--white-opacity">We are a creative studio focusing on culture, luxury, editorial &amp; art. Somewhere between sophistication and simplicity.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Links -->
 
             <!-- Copyright -->
             <div class="container g-padding-y-50--xs">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-xs-12">
                         <a href="index.html">
-                            <img class="g-width-100--xs g-height-auto--xs" src="resources/assets/img/logo.png" alt="Megakit Logo">
+                            <img class="g-width---xs g-height---xs" src="resources/assets/img/moco/mocologo-sky.png" 
+                            alt="Logo" style=" width:35%; padding-top: 10px;">
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Powered by: <a href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                    <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">주소. 광주광역시 남구 송암로60 <br> TEL. 062-0413-0413</p>
                     </div>
-
                  
-                    <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Distributed by: <a href="https://themewagon.com/">themewagon.com</a></p>
+                    <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs" style="padding-top:20px;">
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Designed by MOCO</p>
                     </div>
                 </div>
             </div>
