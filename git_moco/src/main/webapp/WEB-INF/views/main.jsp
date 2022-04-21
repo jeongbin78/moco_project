@@ -79,7 +79,7 @@
                         <div class="s-header__navbar-row-col">
                             <!-- Logo -->
                             <div class="s-header__logo">
-                                <a href="main.jsp" class="s-header__logo-link">
+                                <a href="main.do" class="s-header__logo-link">
                                    <img class="s-header__logo-img s-header__logo-img-default" 
                                    src="resources/assets/img/moco/mocologo-white.png" alt="logo" style="width:50%;">
                                    <img class="s-header__logo-img s-header__logo-img-shrink" 
@@ -110,10 +110,10 @@
                     <div class="container-fluid">
                         <!-- Menu List -->                                
                         <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="mocoGuide.jsp">MOCO사용가이드</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="moco_cam.jsp">MOCO 제품소개</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="complain.jsp">건의사항</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.jsp">FAQ</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="guide.do">MOCO사용가이드</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="product.do">MOCO 제품소개</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="complain.do">건의사항</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.do">FAQ</a></li>
                         </ul>
                         <!-- End Menu List -->
                     </div>
@@ -192,7 +192,7 @@
                 <br>
                 <p class="p_info">MOCO만 있다면 간단한 동작만으로<br>기기들을 제어할 수 있어요.</p>
                 <br>
-                <img alt="home" src="resources/assets/img/moco/clock.jpg" style="width:75%; margin-left:150px;">
+                <img alt="home" src="resources/assets/img/moco/time.jpg" style="width:75%; margin-left:150px;">
             </div>
             
             <br>

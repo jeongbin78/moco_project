@@ -64,8 +64,8 @@
    	 			padding: 20px 0;
         	}
         	.info_img{
-        		width:30%; 
-        		float:right;
+        		width:20%; 
+        	 	float:right;
         	}
         	.info_span{
         		font-family: 'Noto Sans KR', sans-serif;
@@ -95,7 +95,7 @@
                         <div class="s-header__navbar-row-col">
                             <!-- Logo -->
                             <div class="s-header__logo">
-                                <a href="main.jsp" class="s-header__logo-link">
+                                <a href="main.do" class="s-header__logo-link">
                                     <img class="s-header__logo-img s-header__logo-img-default" 
                                     src="resources/assets/img/moco/mocologo-white.png" alt="Logo" style="width:50%;">
                                     <img class="s-header__logo-img s-header__logo-img-shrink" 
@@ -127,10 +127,10 @@
                     <div class="container-fluid">
                         <!-- Menu List -->                                
                         <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="mocoGuide.jsp">MOCO사용가이드</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="moco_cam.jsp">MOCO 제품소개</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="complain.jsp">건의사항</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.jsp">FAQ</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="guide.do">MOCO사용가이드</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="product.do">MOCO 제품소개</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="complain.do">건의사항</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.do">FAQ</a></li>
                         </ul>
                         <!-- End Menu List -->
                     </div>
@@ -192,7 +192,7 @@
                 	<span class="num_span">2</span>
                     <span class="title_span">회원 가입하기</span><br>
                     <span class="info_span">앱을 통해 회원가입을 하고 MOCO의 제품 번호까지 등록합니다.</span>
-                    <img class="info_img"  alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                    <img class="info_img"  alt="temp" src="resources/assets/img/moco/moco_join.jpg" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
                 </div>
             </div>
         </div>
@@ -203,7 +203,7 @@
                 	<span class="num_span">3</span>
                     <span class="title_span">기기 추가하기</span><br>
                     <span class="info_span">앱에서 기기 추가를 눌러 제어하길 원하는 기기의<br>시리얼 넘버를 입력해 기기를 등록합니다.</span>
-                    <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                    <img class="info_img" alt="temp" src="resources/assets/img/moco/moco_device.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
                 </div>
             </div>
         </div>
@@ -270,11 +270,11 @@
         
         <script type="text/javascript">
         	function zoomIn(event){
-        		event.target.style.width = "35%";
+        		event.target.style.width = "25%";
         		event.target.style.transition = "all 0.5s";
         	}
         	function zoomOut(event){
-        		event.target.style.width = "30%";
+        		event.target.style.width = "20%";
         		event.target.style.transition = "all 0.5s";
         	}
         
