@@ -32,4 +32,9 @@ public class MainController {
 	public String guidePage() {
 		return "mocoGuide";
 	}
+	
+	@RequestMapping("/login.do")
+	public String login() {
+		return "login";
+	}
 }
