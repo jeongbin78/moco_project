@@ -172,7 +172,7 @@ GITHUB: https://github.com/themefisher/
         </header>
         <!--========== END HEADER ==========-->
 
-  <section class="banner" style="z-index: -1;">
+  <section class="banner">
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-8">

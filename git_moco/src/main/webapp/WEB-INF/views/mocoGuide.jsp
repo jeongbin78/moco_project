@@ -181,7 +181,7 @@
                 	<span class="num_span">1</span>
                     <span class="title_span">MOCO(캠) 설치하기</span><br>
                     <span class="info_span">내 모습이 완전히 보이도록 천장 쪽에 MOCO를 설치하면 좋습니다.</span>
-                    <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                    <!-- <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)"> -->
                 </div>
             </div>
         </div>
@@ -190,9 +190,13 @@
             <div class="row g-margin-b-50--xs">
                 <div>
                 	<span class="num_span">2</span>
-                    <span class="title_span">회원 가입하기</span><br>
-                    <span class="info_span">앱을 통해 회원가입을 하고 MOCO의 제품 번호까지 등록합니다.</span>
-                    <img class="info_img"  alt="temp" src="resources/assets/img/moco/moco_join.jpg" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                    <span class="title_span">회원 가입 / 로그인하기</span><br>
+                    <span class="info_span">앱을 통해 회원가입을 하고 MOCO의 제품 번호까지 등록합니다. <br> 회원가입 완료 후 로그인을 해줍니다. </span>
+                    <img class="info_img"  alt="temp" src="resources/assets/img/moco/app_login.png" 
+                    onmouseenter="zoomIn2(event)" onmouseleave="zoomOut2(event)" style="padding-left:15px; width:23%;">
+                    <img class="info_img"  alt="temp" src="resources/assets/img/moco/app_join.png" 
+                    onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                    
                 </div>
             </div>
         </div>
@@ -275,6 +279,15 @@
         	}
         	function zoomOut(event){
         		event.target.style.width = "20%";
+        		event.target.style.transition = "all 0.5s";
+        	}
+        	
+        	function zoomIn2(event){
+        		event.target.style.width = "27%";
+        		event.target.style.transition = "all 0.5s";
+        	}
+        	function zoomOut2(event){
+        		event.target.style.width = "23%";
         		event.target.style.transition = "all 0.5s";
         	}
         
