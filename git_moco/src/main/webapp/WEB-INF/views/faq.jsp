@@ -173,10 +173,10 @@
                                         <svg width="19" height="19" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="#13b1cd" d="M1088 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/>
                                         </svg>
-                                        <h4 class="s-faq-grid__title" style="color:black;" onclick="answer_03()">카메라 인식이 잘 안되는데 어떻게 해야 되나요?</h4>
+                                        <h4 class="s-faq-grid__title" style="color:black;" onclick="answer_02()">카메라 인식이 잘 안되는데 어떻게 해야 되나요?</h4>
                                     </div>
                                     <div class="cbp-caption-activeWrap">
-										<p id="answer03"></p>
+										<p id="answer02"></p>
                                     </div>
                                 </div>
                             </div>
@@ -187,7 +187,21 @@
                                         <svg width="19" height="19" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="#13b1cd" d="M1088 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/>
                                         </svg>
-                                        <h4 class="s-faq-grid__title" style="color:black;" onclick="answer_04()">카메라는 어디에 설치해야 하나요?</h4>
+                                        <h4 class="s-faq-grid__title" style="color:black;" onclick="answer_03()">카메라는 어디에 설치해야 하나요?</h4>
+                                    </div>
+                                    <div class="cbp-caption-activeWrap">
+										<p id="answer03"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="cbp-item buying">
+                                <div class="cbp-caption" style="border-bottom: 1px solid #ddd;">
+                                    <div class="s-faq-grid__divider cbp-caption-defaultWrap">
+                                        <svg width="19" height="19" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="#13b1cd" d="M1088 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/>
+                                        </svg>
+                                        <h4 class="s-faq-grid__title" style="color:black;" onclick="answer_04()">정해진 동작으로만 ON/OFF가 가능한가요?</h4>
                                     </div>
                                     <div class="cbp-caption-activeWrap">
 										<p id="answer04"></p>
@@ -201,27 +215,14 @@
                                         <svg width="19" height="19" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="#13b1cd" d="M1088 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/>
                                         </svg>
-                                        <h4 class="s-faq-grid__title" style="color:black;" onclick="answer_02()">연결이 안 되는 기기는 어떻게 해야 하나요?</h4>
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-										<p id="answer02"></p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="cbp-item copyright">
-                                <div class="cbp-caption">
-                                    <div class="s-faq-grid__divider cbp-caption-defaultWrap">
-                                        <svg width="19" height="19" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#13b1cd" d="M1088 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/>
-                                        </svg>
-                                        <h4 class="s-faq-grid__title" style="color:black;" onclick="answer_05()">질문 내용</h4>
+                                        <h4 class="s-faq-grid__title" style="color:black;" onclick="answer_05()">연결이 안 되는 기기는 어떻게 해야 하나요?</h4>
                                     </div>
                                     <div class="cbp-caption-activeWrap">
 										<p id="answer05"></p>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -285,17 +286,21 @@
        		}
        		
        		function answer_02(){
-       			$('#answer02').html('<p class="p_answer"> >> </p>');
+       			$('#answer02').html('<p class="p_answer"> >> 상반신이 보일 수 있는 곳에 카메라를 설치하셔야 <br> 모션 인식이 잘 이루어집니다. </p> ')
        		}
        		
        		function answer_03(){
-       			$('#answer03').html('<p class="p_answer"> >> 내 모습이 완전히 보일 수 있는 곳에 카메라를 설치하셔야 <br> 모션 인식이 잘 이루어집니다. </p> ')
+       			$('#answer03').html('<p class="p_answer"> >> 상반신이 완전히 보여야 하기 때문에 천장 쪽 같은 윗 쪽에 설치하는 것이 가장 좋습니다. </p>' )
        		}
        		
        		function answer_04(){
-       			$('#answer04').html('<p class="p_answer"> >> 내 모습이 완전히 보여야 하기 때문에 천장 쪽에 설치하는 것이 가장 좋습니다. </p>' )
+       			$('#answer04').html('<p class="p_answer"> >> 현재 정해져 있는 동작들만 가능하지만 추후 사용자가 동작을 추가할 수 있게끔 개발할 예정입니다. </p>' )
        		}
-       			
+       		
+       		function answer_05(){
+       			$('#answer05').html('<p class="p_answer"> >> </p>');
+       		}
+       		
        	</script>
         
         

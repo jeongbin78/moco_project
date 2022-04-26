@@ -206,8 +206,9 @@
                 <div>
                 	<span class="num_span">3</span>
                     <span class="title_span">기기 추가하기</span><br>
-                    <span class="info_span">앱에서 기기 추가를 눌러 제어하길 원하는 기기의<br>시리얼 넘버를 입력해 기기를 등록합니다.</span>
-                    <img class="info_img" alt="temp" src="resources/assets/img/moco/moco_device.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                    <span class="info_span">앱에서 추가하기 버튼을 눌러 제어하길 원하는 기기의<br>시리얼 넘버를 입력해 기기를 등록합니다.</span>
+                    <img class="info_img" alt="temp" src="resources/assets/img/moco/moco_device.png" 
+                    onmouseenter="zoomIn3(event)" onmouseleave="zoomOut3(event)" style="padding-right:120px; width:32%;">
                 </div>
             </div>
         </div>
@@ -217,8 +218,10 @@
                 <div>
                 	<span class="num_span">4</span>
                     <span class="title_span">MOCO 사용하기</span><br>
-                    <span class="info_span">기기도 등록하고 MOCO도 설치했다면 <br> 모션을 통해 기기의 전원 제어가 잘 되는지 테스트를 해봅니다.</span>
-                    <img class="info_img" alt="temp" src="resources/assets/img/moco/tempimg.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                    <span class="info_span">기기도 등록하고 MOCO도 설치했다면 <br> 특정 모션을 통해 기기의 ON/OFF가 잘 되는지 테스트를 해보고 
+                    	<br> 앱으로도 ON/OFF를 제어할 수 있습니다.</span>
+                    <img class="info_img" alt="temp" src="resources/assets/img/moco/device_onoff.png" 
+                    onmouseenter="zoomIn3(event)" onmouseleave="zoomOut3(event)" style="padding-right:120px; width:32%;">
                 </div>
             </div>
         </div>
@@ -288,6 +291,15 @@
         	}
         	function zoomOut2(event){
         		event.target.style.width = "23%";
+        		event.target.style.transition = "all 0.5s";
+        	}
+        	
+        	function zoomIn3(event){
+        		event.target.style.width = "37%";
+        		event.target.style.transition = "all 0.5s";
+        	}
+        	function zoomOut3(event){
+        		event.target.style.width = "32%";
         		event.target.style.transition = "all 0.5s";
         	}
         
