@@ -211,15 +211,16 @@ GITHUB: https://github.com/themefisher/
                            <div class="center-wrap">
                               <div class="section text-center">
                                  <h4 class="mb-4 pb-3">Log In</h4>
-                                 <form action="login.do" method="post">
+                                 
+                                 <form action="memberLogin.do" method="post">
                                     <div class="form-group">
-                                       <input type="text" name="mb_id" class="form-style"
-                                          placeholder="ID를 입력해주세요." id="logemail" autocomplete="off">
+                                       <input type="text" name="id" class="form-style"
+                                          placeholder="ID를 입력해주세요." id="logId" autocomplete="off">
                                        <i class="input-icon uil uil-at"></i>
                                     </div>
                                     <div class="form-group mt-2">
-                                       <input type="password" name="mb_pw" class="form-style"
-                                          placeholder="PW를 입력해주세요." id="logpass"
+                                       <input type="password" name="pw" class="form-style"
+                                          placeholder="PW를 입력해주세요." id="logPass"
                                           autocomplete="off"> <i
                                           class="input-icon uil uil-lock-alt"></i>
                                     </div>
@@ -236,10 +237,11 @@ GITHUB: https://github.com/themefisher/
                            <div class="center-wrap">
                               <div class="section text-center">
                                  <h4>Sign Up</h4>
-                                 <form action="join.do" method="post">
+                                 
+                                 <form action="memberInsert.do" method="post">
                                     
                                     <div class="form-group mt-2">
-                                       <input type="text" id="loginmail" name="mb_id"
+                                       <input type="text" id="loginId" name="id"
                                           class="form-style" placeholder="ID를 입력해주세요."
                                           autocomplete="off"> <i
                                           class="input-icon uil uil-at"></i>
@@ -248,31 +250,30 @@ GITHUB: https://github.com/themefisher/
                                     </div>
 
                                     <div class="form-group mt-2">
-                                       <input type="password" name="mb_pw" class="form-style"
-                                          placeholder="PW를 입력해주세요." id="logpass"
+                                       <input type="password" name="pw" class="form-style"
+                                          placeholder="PW를 입력해주세요." id="logPass"
                                           autocomplete="off"> <i
                                           class="input-icon uil uil-lock-alt"></i>
                                     </div>
                                     <div class="form-group mt-2">
-                                       <input type="text" name="height" class="form-style"
-                                          placeholder="키를 입력해주세요." id="logname"
+                                       <input type="text" name="name" class="form-style"
+                                          placeholder="이름을 입력해주세요." id="logName"
                                           autocomplete="off"> <i
                                           class="input-icon uil uil-user"></i>
                                     </div>
                                     <div class="form-group mt-2">
-                                       <input type="text" name="weight" class="form-style"
-                                          placeholder="몸무게를 입력해주세요." id="logname"
+                                       <input type="text" name="address" class="form-style"
+                                          placeholder="몸무게를 입력해주세요." id="logAdd"
                                           autocomplete="off"> <i
                                           class="input-icon uil uil-user"></i>
                                     </div>
-                                    <div class="form-group mt-2" style="padding-top:10px;">
-                                    <span>성별</span>
-                                       <input type="radio" id="male" name="gender" value="M">
-                                       <label>남</label>
-                                       <input type="radio" id="female" name="gender" value="W">
-                                       <label>여</label>
+                                    <div class="form-group mt-2">
+                                    	<input type="text" name="phone" class="form-style"
+                                          placeholder="전화번호를 입력해주세요." id="logTel"
+                                          autocomplete="off"> <i
+                                          class="input-icon uil uil-user"></i>
                                     <br>
-                                    <button class="btn mt-3" onclick='location.href="goMain"'>submit</button>
+                                    <button class="btn mt-3" type="submit">submit</button>
                                     </div>
                                  </form>
                               </div>
