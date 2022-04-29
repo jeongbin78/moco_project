@@ -162,8 +162,8 @@
                     <div class="col-md-4 g-margin-b-10--xs g-margin-b-0--lg">
                         <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
                             <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
-                            	<img alt="moco-cam" src="resources/assets/img/moco/moco-cam.png">
-                                <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-package"></i>
+                            	<img alt="moco-cam" src="resources/assets/img/moco/moco-cam.png" style="padding-bottom:20px;">
+                                <!-- <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-package"></i> -->
                                 <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">MOCO</h3>
                                 <ul class="info_li list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
                                     <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> MOCO를 설치할 공간만 있으면 OK!</li>
@@ -172,10 +172,10 @@
                                     <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> 재미와 실용성, 둘 다 갖춘 MOCO!!</li>
                                 </ul>
                                 <div class="g-margin-b-40--xs">
-                                    <span class="price_span s-plan-v1__price-tag">10</span>
-                                    <span class="price_span s-plan-v1__price-mark">만원</span>
+                                    <span class="price_span s-plan-v1__price-tag"></span>
+                                    <span class="price_span s-plan-v1__price-mark">MOCO가 궁금하다면??</span>
                                 </div>
-                                <a href="https://shopping.naver.com/home/p/index.naver"> <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">제품 구매하러 가기</button> </a>
+                                <a href="moco_shop.do"> <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">제품 구매하러 가기</button> </a>
                             </div>
                         </div>
                     </div>

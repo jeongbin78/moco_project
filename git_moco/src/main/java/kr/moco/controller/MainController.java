@@ -37,4 +37,10 @@ public class MainController {
 	public String login() {
 		return "login";
 	}
+	
+	@RequestMapping("/moco_shop.do")
+	public String moco_shop() {
+		return "moco_shop";
+	}
+	 
 }
