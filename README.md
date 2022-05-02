@@ -32,3 +32,45 @@
 - 액자로 제품을 만들어 인테리어 용으로도 사용 가능
 - 사진 교체 가능
 
+  `MOCO 흐름도` <br><br>
+<img width="600" alt="moco_flow" src="https://user-images.githubusercontent.com/99242264/166238806-d2b125a4-792a-4d85-bb95-ee76adfe3c21.PNG">
+
+## 5. 기능 명세
+- 라즈베리 파이를 이용한 영상 송출
+- 서버에서 json데이터 수집 후 연결된 사물 제어(Arduino)
+- 딥 러닝을 이용한 모션 인식<br><br>
+ 
+<img width="600" alt="moco_dl01" src="https://user-images.githubusercontent.com/99242264/166238686-6fdb1442-4ce4-4ad5-878a-88391267105f.PNG"><br>
+   <img width="600" alt="moco_dl02" src="https://user-images.githubusercontent.com/99242264/166238725-2a807a85-20c2-45d4-a1f8-47e7f2efe060.PNG"><br>
+   
+   
+## 6. 활용 사례
+   <img width="650" alt="moco_web" src="https://user-images.githubusercontent.com/99242264/166237448-ce163033-4352-4d03-a85e-87eb64d22697.PNG"><br><br>
+   <img width="650" alt="moco_app" src="https://user-images.githubusercontent.com/99242264/166237466-5faf01b7-266e-43ed-86e9-c4b7bcaff70e.PNG">
+   
+## 7. 팀원 단위 업무 분장 및 결과표
+  <table>
+    <tr>
+      <th>이름</th>
+      <th>역할 및 분담 업무</th>
+    </tr>
+    <tr>
+      <td>한정무</td>
+      <td>프로젝트 총괄 및 안드로이드 앱 개발</td>
+    </tr>
+    <tr>
+      <td>하영준</td>
+      <td>딥 러닝 이용 모션 인식 기능 구현</td>
+    </tr>
+    <tr>
+      <td>김영재</td>
+      <td>IoT 기기 담당 – Raspberry Pi와 아두이노 서버 연결</td>
+    </tr>
+    <tr>
+      <td>김정빈</td>
+      <td>웹 페이지 디자인 및 제작</td>
+    </tr>
+  </table>
+
+
+
