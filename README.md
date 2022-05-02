@@ -21,11 +21,14 @@
 <img src="https://img.shields.io/badge/Eclipse IDE-2C2255?style=flat-square&logo=Eclipse IDE&logoColor=white"/>,
 <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=Android Studio&logoColor=white"/>,
 <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=Arduino&logoColor=black"/>,
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=black"/>,
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=black"/>, <img src="https://img.shields.io/badge/Raspberry Pi-22846?style=flat-square&logo=Raspberry Pi&logoColor=black"/>
 
-- 서버환경 : 
-<img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=flat-square&logo=Apache Tomcat&logoColor=black"/>,
+- 서버환경 : <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=flat-square&logo=Apache Tomcat&logoColor=black"/>
 
-- 데이터베이스 : 
+- 데이터베이스 : <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=black"/>, <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=black"/>
 
-## 4. 대표 이미지
+## 4. 제품 설명
+<img width="550" alt="moco" src="https://user-images.githubusercontent.com/99242264/166219554-778d2501-ee54-421b-a413-618ba13261d5.PNG"><br>
+- 액자로 제품을 만들어 인테리어 용으로도 사용 가능
+- 사진 교체 가능
+
