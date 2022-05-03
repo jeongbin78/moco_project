@@ -263,7 +263,7 @@ GITHUB: https://github.com/themefisher/
                                     </div>
                                     <div class="form-group mt-2">
                                        <input type="text" name="address" class="form-style"
-                                          placeholder="몸무게를 입력해주세요." id="logAdd"
+                                          placeholder="주소를 입력해주세요." id="logAdd"
                                           autocomplete="off"> <i
                                           class="input-icon uil uil-user"></i>
                                     </div>
