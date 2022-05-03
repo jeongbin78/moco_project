@@ -28,26 +28,26 @@
 - 데이터베이스 : <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=black"/>, <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=black"/>
 
 ## 4. 제품 설명
-<img width="550" alt="moco" src="https://user-images.githubusercontent.com/99242264/166219554-778d2501-ee54-421b-a413-618ba13261d5.PNG"><br>
+<img width="750" alt="moco" src="https://user-images.githubusercontent.com/99242264/166219554-778d2501-ee54-421b-a413-618ba13261d5.PNG"><br>
 - 액자로 제품을 만들어 인테리어 용으로도 사용 가능
 - 사진 교체 가능
 
-  `MOCO 흐름도` <br>
-  <img width="600" alt="moco_flow" src="https://user-images.githubusercontent.com/99242264/166238806-d2b125a4-792a-4d85-bb95-ee76adfe3c21.PNG">
+ `MOCO 흐름도` <br>
+ <img width="700" alt="moco_flow" src="https://user-images.githubusercontent.com/99242264/166238806-d2b125a4-792a-4d85-bb95-ee76adfe3c21.PNG">
 
 ## 5. 기능 명세
 - 라즈베리 파이를 이용한 영상 송출
 - 딥 러닝을 이용한 모션 인식
 - 서버에서 json데이터 수집 후 연결된 사물 제어(Arduino)<br><br>
  
-<img width="650" alt="moco_dl01" src="https://user-images.githubusercontent.com/99242264/166238686-6fdb1442-4ce4-4ad5-878a-88391267105f.PNG"><br><br>
-   <img width="650" alt="moco_dl02" src="https://user-images.githubusercontent.com/99242264/166238725-2a807a85-20c2-45d4-a1f8-47e7f2efe060.PNG"><br><br>
-   <img width="650" alt="arduino02" src="https://user-images.githubusercontent.com/99242264/166241351-30749b73-4c60-40f6-8344-a49d04b89b72.PNG">
+<img width="700" alt="moco_dl01" src="https://user-images.githubusercontent.com/99242264/166238686-6fdb1442-4ce4-4ad5-878a-88391267105f.PNG"><br><br>
+   <img width="700" alt="moco_dl02" src="https://user-images.githubusercontent.com/99242264/166238725-2a807a85-20c2-45d4-a1f8-47e7f2efe060.PNG"><br><br>
+   <img width="700" alt="arduino02" src="https://user-images.githubusercontent.com/99242264/166241351-30749b73-4c60-40f6-8344-a49d04b89b72.PNG">
    
    
 ## 6. 활용 사례
-   <img width="650" alt="moco_web" src="https://user-images.githubusercontent.com/99242264/166237448-ce163033-4352-4d03-a85e-87eb64d22697.PNG"><br><br>
-   <img width="650" alt="moco_app" src="https://user-images.githubusercontent.com/99242264/166237466-5faf01b7-266e-43ed-86e9-c4b7bcaff70e.PNG">
+   <img width="700" alt="moco_web" src="https://user-images.githubusercontent.com/99242264/166237448-ce163033-4352-4d03-a85e-87eb64d22697.PNG"><br><br>
+   <img width="700" alt="moco_app" src="https://user-images.githubusercontent.com/99242264/166237466-5faf01b7-266e-43ed-86e9-c4b7bcaff70e.PNG">
    
    
 ## 7. 팀원 단위 업무 분장 및 결과표
