@@ -57,19 +57,19 @@
       <th>역할 및 분담 업무</th>
     </tr>
     <tr>
-      <td>한정무</td>
+      <td>한**</td>
       <td>프로젝트 총괄 및 안드로이드 앱 개발</td>
     </tr>
     <tr>
-      <td>하영준</td>
+      <td>하**</td>
       <td>딥 러닝 이용 모션 인식 기능 구현</td>
     </tr>
     <tr>
-      <td>김영재</td>
+      <td>김**</td>
       <td>IoT 기기 담당 – Raspberry Pi와 아두이노 서버 연결</td>
     </tr>
     <tr>
-      <td>김정빈</td>
+      <td>ME</td>
       <td>웹 페이지 디자인 및 제작</td>
     </tr>
   </table>
